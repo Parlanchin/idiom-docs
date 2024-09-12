@@ -31,3 +31,7 @@
   --ifm-background-color: #070c31;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.hidden{
+  display: none !important;
+}
