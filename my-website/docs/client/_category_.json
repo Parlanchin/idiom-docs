@@ -1,0 +1,7 @@
+{
+  "label": "Client",
+  "link": {
+    "type": "generated-index",
+    "description": "Everything related to working with the client."
+  }
+}
