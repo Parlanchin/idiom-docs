@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 
 # Installation
-### Get set up locally to work on the project.
+## Get set up locally to work on the project.
 
 ### Step 1
 First create a new directory and cd into it. Both the client and server will live here.
@@ -27,3 +27,14 @@ replace `<url>` with the copied url from github
 
 ### Step 3
 Then repeat step 2 for the server repo.
+
+## Running locally
+Now cd into the root of the server and run the following
+```Bash
+npm run dev
+```
+Then cd into the root of the client and run the following
+```Bash
+npm run dev
+```
+Open up localhost:3000 in your browser and you should be in.
