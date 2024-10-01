@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[152],{1262:s=>{s.exports=JSON.parse('{"tags":[{"label":"History","permalink":"/idiom-docs/blog/tags/history","description":"History of Idiom","count":1}]}')}}]);
