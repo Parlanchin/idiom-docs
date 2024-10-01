@@ -3,7 +3,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -13,7 +12,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          Idiom
+          <img src={require('@site/static/img/idiomLogo.png').default} alt="Idiom Logo" />
         </Heading>
         <p className="hero__subtitle">Documentation for the Idiom client and server</p>
         <div className={styles.buttons}>
@@ -36,7 +35,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/*<HomepageFeatures />*/}
       </main>
     </Layout>
   );
