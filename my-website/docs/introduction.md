@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-These docs are meant for members of Parlanchín or contributors to Idiom. Before working on the project we'll need to set up your permissions and get any .env variables and other secrets to you. After that you can read the [installation](/docs/installation.md) instructions (pretty straightforward at the moment :smile:)
+These docs are meant for members of Parlanchín or contributors to Idiom. Before working on the project we'll need to set up your permissions and get any .env variables and other secrets to you. After that you can read the [installation](/docs/installation.md) instructions (pretty straightforward at the moment!).
 
 
 ## Overview

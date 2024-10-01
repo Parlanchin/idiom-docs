@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Idiom Docs',
+  tagline: 'Store and practice new vocabulary',
   favicon: 'img/icon.ico',
 
   // Set the production url of your site here
@@ -134,7 +134,7 @@ const config = {
             ],
           },
         ],*/
-        copyright: `Copyright © ${new Date().getFullYear()} Idiom docs Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Idiom docs. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
