@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://docs.idiomlanguages.com/idiom-docs/blog</id>
+    <id>https://docs.idiomlanguages.com/blog</id>
     <title>Idiom Docs Blog</title>
     <updated>2024-09-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://docs.idiomlanguages.com/idiom-docs/blog"/>
+    <link rel="alternate" href="https://docs.idiomlanguages.com/blog"/>
     <subtitle>Idiom Docs Blog</subtitle>
     <entry>
         <title type="html"><![CDATA[History of Idiom]]></title>
-        <id>https://docs.idiomlanguages.com/idiom-docs/blog/Idiom background</id>
-        <link href="https://docs.idiomlanguages.com/idiom-docs/blog/Idiom background"/>
+        <id>https://docs.idiomlanguages.com/blog/Idiom background</id>
+        <link href="https://docs.idiomlanguages.com/blog/Idiom background"/>
         <updated>2024-09-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Background of project]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="background-of-project">Background of project<a href="https://docs.idiomlanguages.com/idiom-docs/blog/Idiom%20background#background-of-project" class="hash-link" aria-label="Direct link to Background of project" title="Direct link to Background of project">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="background-of-project">Background of project<a href="https://docs.idiomlanguages.com/blog/Idiom%20background#background-of-project" class="hash-link" aria-label="Direct link to Background of project" title="Direct link to Background of project">​</a></h2>
 <p>Idiom is a project that I started not long after having learned the very basics of web development. The very first iteration wasn`t anything more than just
 a flashcard exercise which looped over an array of word objects (I had only just learned what arrays and objects were). The project only consisted of a simple
 html, css and javascript file and no frameworks, libraries, dependencies, tests, etc. The js only needed to handle reading properites from the indexed words
@@ -22,20 +22,20 @@ would simply show the translated word when clicked.</p>
 <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;width:500px;height:400px;background-color:purple"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;background-color:white;width:50%;height:50%;color:black"><p>dog</p></div><div style="display:flex;justify-content:space-evenly;width:100%;height:100px;margin-top:50px"><button style="width:40%;height:40%;background-color:white;color:black"> Previous</button><button style="width:40%;height:40%;background-color:white;color:black"> Next</button></div></div>
 <p>Still, I was proud of it and excited to develop it further. I made a point of integrating tools and concepts I would later learn into Idiom
 but always being careful not to get to far ahead of myself as I knew that I would end up with highly coupled code and a tangled frustrating mess.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="create-react-app">Create React App<a href="https://docs.idiomlanguages.com/idiom-docs/blog/Idiom%20background#create-react-app" class="hash-link" aria-label="Direct link to Create React App" title="Direct link to Create React App">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="create-react-app">Create React App<a href="https://docs.idiomlanguages.com/blog/Idiom%20background#create-react-app" class="hash-link" aria-label="Direct link to Create React App" title="Direct link to Create React App">​</a></h3>
 <p>After I had learned the basics of react I decided to devlop Idiom further. This was when I defined the core set of exercises. There wasn't any routing
 at this point. Instead when the user selected a certain exercise, the page would re-render with the corrrect exercise UI and state. As I continued
 to learn more about react, I would add more features and improved component composition.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="redux-for-state-management">Redux for state management<a href="https://docs.idiomlanguages.com/idiom-docs/blog/Idiom%20background#redux-for-state-management" class="hash-link" aria-label="Direct link to Redux for state management" title="Direct link to Redux for state management">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="redux-for-state-management">Redux for state management<a href="https://docs.idiomlanguages.com/blog/Idiom%20background#redux-for-state-management" class="hash-link" aria-label="Direct link to Redux for state management" title="Direct link to Redux for state management">​</a></h3>
 <p>This was my first instance of using Redux which significantly improved my way of thinking about not only how state is managed but
 how to think about the relationship between what happens in the UI, the structure of data, and handling global and local state. As this was
 my first implementation of Redux it was somewhat messy; also it probably wasn't really needed. However, I learned a lot through setting it up and making use of redux dev tools.
 Eventually I decided to move away from it for this project and make use of React's useContext hook.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="a-client-only-version">A client only version<a href="https://docs.idiomlanguages.com/idiom-docs/blog/Idiom%20background#a-client-only-version" class="hash-link" aria-label="Direct link to A client only version" title="Direct link to A client only version">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="a-client-only-version">A client only version<a href="https://docs.idiomlanguages.com/blog/Idiom%20background#a-client-only-version" class="hash-link" aria-label="Direct link to A client only version" title="Direct link to A client only version">​</a></h3>
 <p>The <a href="https://idiom-vocab.vercel.app/" target="_blank" rel="noopener noreferrer">demo</a> is what I am using at the moment to get feedback from a small group of users. Before making final decisions about features, database schema and
 other aspects of the full stack app I wanted to use the app myself and get some input from other people. Creating this client side only version has allowed me to do that
 quickly.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="out-in-the-wild">Out in the wild<a href="https://docs.idiomlanguages.com/idiom-docs/blog/Idiom%20background#out-in-the-wild" class="hash-link" aria-label="Direct link to Out in the wild" title="Direct link to Out in the wild">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="out-in-the-wild">Out in the wild<a href="https://docs.idiomlanguages.com/blog/Idiom%20background#out-in-the-wild" class="hash-link" aria-label="Direct link to Out in the wild" title="Direct link to Out in the wild">​</a></h2>
 <p>I'm currently working on turning this project into a full stack application. The MVP will include all of the current exercises seen in the demo along with a better UI/UX experience as the
 demo is a rough draft of sorts. Subsequent iterations will build on this and include more exercises, games, and tests.
 I'm also planning on creating features which allow users to paste texts from foreign language sources which they can then use to create an array of exercises built around larger chunks of
