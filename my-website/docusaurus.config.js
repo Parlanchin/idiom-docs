@@ -34,6 +34,8 @@ const config = {
     locales: ['en'],
   },
 
+  favicon: '/img/icon.ico',
+
   presets: [
     [
       'classic',
@@ -41,7 +43,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          exclude: ['**/client/**', '**/server/**'],
+          //exclude: ['**/client/**', '**/server/**'],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
