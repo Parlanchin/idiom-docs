@@ -55,4 +55,5 @@
 }
 .banner{
   background-color: var(--banner);
+  margin-top: 75px;
 }
