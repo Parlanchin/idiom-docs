@@ -3,9 +3,8 @@ const container = {
   flexDirection: "column",
   alignItems:"center",
   justifyContent:"center",
-  width: "500px",
-  height: "400px",
-  backgroundColor: "purple",
+  height: "500px",
+  backgroundColor: "var(--ifm-color-primary-darkest)",
 }
 const buttonBox = {
   display: "flex",
