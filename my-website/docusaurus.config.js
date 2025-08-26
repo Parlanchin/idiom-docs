@@ -81,9 +81,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Guide',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Tips', position: 'left'},
           {
             href: 'https://github.com/MattRueter/IDIOM',
             label: 'GitHub',
@@ -134,7 +134,7 @@ const config = {
             ],
           },
         ],*/
-        copyright: `Copyright © ${new Date().getFullYear()} Idiom docs. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Matt Rueter.`,
       },
       prism: {
         theme: prismThemes.github,

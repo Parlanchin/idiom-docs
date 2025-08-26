@@ -14,12 +14,12 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           <img src={require('@site/static/img/idiomLogo.png').default} alt="Idiom Logo" />
         </Heading>
-        <p className="hero__subtitle">Documentation for the Idiom client and server</p>
+        <p className="hero__subtitle">User guide for Idiom</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/introduction">
-            Go to the docs
+            Go to the Guide
           </Link>
         </div>
       </div>
