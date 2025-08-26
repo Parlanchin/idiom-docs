@@ -76,7 +76,7 @@ const config = {
         title: 'Idiom',
         logo: {
           alt: 'Idiom logo',
-          src: 'img/icon.ico',
+          src: 'img/icon',
         },
         items: [
           {

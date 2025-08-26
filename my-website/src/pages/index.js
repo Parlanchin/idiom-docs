@@ -12,7 +12,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          <img src={require('@site/static/img/idiomLogo.png').default} alt="Idiom Logo" />
+          <img src="/img/idiom_white.svg" alt="Idiom Logo" />
         </Heading>
         <p className="hero__subtitle">User guide for Idiom</p>
         <div className={styles.buttons}>
