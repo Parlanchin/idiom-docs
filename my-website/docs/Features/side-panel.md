@@ -2,4 +2,4 @@
 sidebar_position: 1
 ---
 
-# Introduction to Exercises
+# The Side Panel
