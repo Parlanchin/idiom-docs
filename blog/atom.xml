@@ -6,6 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.idiomlanguages.com/blog"/>
     <subtitle>Idiom Docs Blog</subtitle>
+    <icon>https://docs.idiomlanguages.com/img/icon.ico</icon>
     <entry>
         <title type="html"><![CDATA[History of Idiom]]></title>
         <id>https://docs.idiomlanguages.com/blog/Idiom background</id>
